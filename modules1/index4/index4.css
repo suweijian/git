@@ -1,0 +1,96 @@
+#hder2{
+	width: 100%;
+	height: 8.125rem;
+	background:url(../../img/bg.jpg) no-repeat;
+	background-size: 100% 8.125rem;
+}
+#hder2>div{
+	padding-top: 2.3125rem;
+	padding-left: 30%;
+}
+#hder2{
+	color: white;
+}
+#p1{
+	text-indent: 2.375rem;
+	line-height: 2.25rem;
+	width: 6.6875rem;
+	height:2.25rem;
+	background: url(../../img/bg2.jpg) no-repeat;
+	color: red;
+}
+/*banner111*/
+#baner1{
+	background:url(../../img/bg3.jpg) no-repeat;
+	background-size: 100% 2.8125rem;
+	width: 100%;
+	height: 2.8125rem;
+	text-align: center;
+}
+#baner1 div{
+	width: 50%;
+	float: left;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	color: #ffffff;
+}
+#baner1 img{
+	margin-right: 1rem;
+	vertical-align: middle;
+}
+/*nav*/
+#nv1{
+	width: 100%;
+	height: 3.9375rem;
+	border-top: 13px solid #efefef;
+	border-bottom: 1px solid #cccccc;
+	line-height: 3.9375rem;
+	color: black;
+}
+#naa1{
+	height: 1rem;
+	float: left;
+}
+#naa2{
+	height: 1rem;
+	float: right;
+}
+/*main*/
+#min1{
+	border-bottom: 13px solid #efefef;
+	clear: both;
+	width: 100%;
+	height: 5.75rem;
+}
+#min1 ul{
+	width: 100%;
+	height: 5.75rem;
+}
+#min1 li{
+	text-align: center;
+	width: 25%;
+	height: 5.75rem;
+	float: left;
+}
+#min1 img{
+	margin-top: 1.6875rem;
+}
+/*main2*/
+#min2{
+	border-bottom: 1px solid #efefef;
+	clear: both;
+	width: 100%;
+}
+#min2 ul{
+	width: 100%;
+	height: 8rem;
+}
+#min2 li{
+	text-align: center;
+	width: 25%;
+	height: 8rem;
+	float: left;
+}
+#min2 img{
+	margin-top: 1.6875rem;
+}

@@ -1,0 +1,39 @@
+#bgg{
+	background: #efefef;
+	width: 100%;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	height: 100%;
+}
+#header1{
+	background-color: #ffffff;
+	line-height: 3.625rem;
+	height: 3.625rem;
+	width: 100%;
+	text-align: center;
+	font-size: 1.0625rem;
+}
+#main{
+	height: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+#main img{
+	margin-top: 5.3125rem;
+}
+#main p{
+	margin-top: 0.625rem;
+}
+#main span{
+	line-height: 2.0625rem;
+	margin: 0 auto;
+	display: block;
+	border:1px solid #e0e0e0;
+	margin-top: 0.625rem;
+	border-radius: 2px;
+	height: 2.0625rem;
+	width: 8.3125rem;
+}
+#main a{
+	font-size: 1rem;
+}

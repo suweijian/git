@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://m.beequick.cn/ -->
+<html lang="en" class="platform-iphone platform-daojia58App platform-mobile platform-m bugfix  partner-unsupport-share" style="font-size: 12.9375px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <script>window.SYS_PERFORMANCE = {pageName:'show_phone_m.tpl',wxRedirectTime:'',headStart:(new Date)*1};</script>  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="format-detection" content="telephone=no">  <link rel="apple-touch-icon-precomposed" href="http://m.beequick.cn/static/bee/img/app_icon-bae075e7.png"><title>爱鲜蜂</title> <meta name="keywords" content="爱鲜蜂,社区O2O,网上外卖,订外卖"><meta name="description" content="各种新鲜，闪电送！鲜蜂侠急送,1小时内送货上门,下单后鲜蜂侠火速送上冰饮零食、卤味夜宵~OTO领域的创新企业，专注于社区服务的最后1公里">  <script>window._bee_imgRequest = function(url,onfinish){if(!url)return;var imgId = '_img_request_'+Math.random(),loadFn = function(){delete window[imgId];onfinish && onfinish();};window[imgId] = new Image();window[imgId].onload = loadFn;window[imgId].onerror = loadFn;window[imgId].src = url;};window._bee_sendError = (function(){var msgSended = {};return function(msg,url,line,column,errorObj){if(line != -1 && 'online' == 'online' && msgSended[msg])return;msgSended[msg] = true;window._bee_imgRequest('http://log.beequick.cn//err.gif?logid=584a9a26248bd9908&msg='+encodeURIComponent(msg)+'&url='+encodeURIComponent(url)+'&line='+line+(column?'&column='+column:'')+(errorObj?'&errorObj='+encodeURIComponent(JSON.stringify(errorObj)):'')+'&_r='+Math.random());}})();window._bee_is_sentError=true;window.onerror = function(msg,url,line){if(url.indexOf('beequick.cn') == -1)return;window._bee_is_sentError && _bee_sendError(msg,url,line);window.vConsole && window.console.error('JsError:',msg,url,line);/*Ignore Warning*/return null;};window._bee_checkJsLoaded=function(){if(!window._bee_jsLoaded)return;var sElms=document.getElementsByTagName('script'),len=sElms.length,i,sElm,src,fname;for(i=0;i<len;i++){sElm=sElms[i];src=sElm.src;if(!src||src.indexOf('/static/bee/')<0)continue;src=src.replace(/\-[0-9a-f]{8}\.js/,'.js');fname=src.split('/js/')[1];if(fname&&!window._bee_jsLoaded[fname]){window._bee_sendError('js load failed',sElm.src,-1);window._bee_jsLoaded[fname]=1;}}};if(window.addEventListener){window.addEventListener('load',window._bee_checkJsLoaded,false);}else if(window.attachEvent){window.attachEvent('onload',window._bee_checkJsLoaded);}</script>    <style>html{position:relative;height:100%;margin:auto; }
+	body{width:100%;height:100%;}
+	@media screen and (-webkit-device-pixel-ratio: 1){ html{max-width:800px;} }
+	@media screen and (-webkit-min-device-pixel-ratio: 2){ html{max-width:480px;} }</style>    <style>body,div{padding:0;margin:0;}html,body{font: 16px/1.5 '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;color: #333;background-color:white;}@-webkit-keyframes kf_boot_gps{0%,100%{opacity:.1;}50%{opacity:1;}}.mod-bootstrap{position:absolute;top:0;bottom:0;left:0;right:0;background:center 30% no-repeat #ffd82b url(/static/bee/img/m/boot_logo-88fb0b99.png);background-size:60%;}.mod-bootstrap .boot-gps{padding-top:80%;text-align:center;font-size:14px !important;}.mod-bootstrap .boot-gps-icon{width:36px;height:36px;margin:auto;background:center center no-repeat url(/static/bee/img/m/boot_gps-5f778fd8.png);background-size:contain;-webkit-animation:kf_boot_gps 2s infinite;}  </style>    <meta name="x5-fullscreen" content="true"><meta name="full-screen" content="yes">  <style>.gmu-media-detect{-webkit-transition: width 0.001ms; width: 0; position: absolute; clip: rect(1px, 1px, 1px, 1px);}
+@media screen and (width: 414px) { #gmu-media-detect0 { width: 1px; } }
+</style><link rel="stylesheet" href="./爱鲜蜂_files/phone_m.all-1afe07d3.css"><link rel="stylesheet" href="./爱鲜蜂_files/phone_m_img.all-1dec3d2f.css"><style id="mod-loading-stylesheet">.mod-loading {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:50000;
+}
+.mod-loading .loading-content{
+position:absolute;
+top:50%;
+left:50%;
+width:200px;
+height:60px;
+margin:-50px 0 0 -100px;
+text-align:center;
+line-height:30px;
+font-weight:bold;
+background-color:#ccc;
+border-radius:15px;
+}
+.mod-loading .loading-text{
+margin-left:12px;
+}
+.spinner {
+margin: 5px 0;
+padding:0;
+height:22px;
+text-align: center;
+}
+
+.spinner > div {
+width: 22px;
+height: 22px;
+background-color: #fcda04;
+
+border-radius: 100%;
+display: inline-block;
+-webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+animation: bouncedelay 1.4s infinite ease-in-out;
+-webkit-animation-fill-mode:both;
+animation-fill-mode:both;
+}
+
+.spinner .bounce1{
+-webkit-animation-delay:-0.32s;
+animation-delay:-0.32s;
+}
+
+.spinner .bounce2{
+-webkit-animation-delay: -0.16s;
+animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+0%, 80%, 100% { -webkit-transform: scale(0.0) }
+40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+0%, 80%, 100% {
+transform: scale(0.0);
+-webkit-transform: scale(0.0);
+} 40% {
+transform: scale(1.0);
+-webkit-transform: scale(1.0);
+}
+}</style></head><body class=" bugfix" data-loading-id="1">  <script>window.SYS_PERFORMANCE.bodyStart=(new Date)*1;if(navigator.standalone){document.documentElement.className += ' standalone';};</script>   <script>(function(){
+			var calc = function(){
+        		var docElement = document.documentElement;
+        		var clientWidthValue = docElement.clientWidth > 480 ? 480 : docElement.clientWidth;
+        		docElement.style.fontSize = 10*(clientWidthValue/320) + 'px';
+			}
+			calc();
+			window.addEventListener('resize',calc);
+		})();</script>  <div id="mod-container" class="mod-container clearfix">         <input type="hidden" id="m-phone-lazy-css" value="/static/bee/css/phone_m.all-1afe07d3.css"> <input type="hidden" id="m-phone-img-css" value="/static/bee/css/phone_m_img.all-1dec3d2f.css"><div id="mod-bootstrap" class="mod-bootstrap" style="display: none;"><div class="boot-gps"><div class="boot-gps-icon"></div>定位中</div></div><ul id="mod-navs" class="mod-navs theme-spline-top" style="display: block;"><li class="navs-item navs-item-home navs-current" data-key="home" style="width:25%;"><div class="navs-bubble"></div>首页</li><li class="navs-item navs-item-menu " data-key="menu" style="width:25%;"><div class="navs-bubble"></div>闪送超市</li><li class="navs-item navs-item-cart" data-key="cart" style="width:25%;"><div class="navs-bubble navs-bubble-num" style="display: block;">3</div>购物车</li><li class="navs-item navs-item-mine " data-key="mine" style="width:25%;"><div class="navs-bubble"></div>我的</li></ul>  <div id="mod-pageview-1" class="mod-home mod-pageview pageview-hadtitle pageview-isroot" style="z-index: 100; display: block;" data-stack="8"><header class="pub-header spline-bottom theme-bg theme-border">
+<span class="tap-action header-icon header-left header-icon-" data-tap="" data-log=""></span>
+<div class="header-content ui-ellipsis tap-action" data-tap="titleTap" data-log="address"><span class="title-addrname">光耀公寓 011</span></div>
+<span class="tap-action header-icon header-right header-icon-search header-icon-textico" data-tap="changeView|search" data-log="">搜&nbsp;索&nbsp;</span>
+<div class="header-percent theme-bg"></div>
+</header><div class="main scroller" style="overflow-y: auto; overflow-x: hidden;">
+<div class="home-content">
+<div class="main-acts"><div class="acts-focus mod-slides cf " style="width: 414px;"><div class="slides-wrap-inner" style="width: 1242px; transform: translate3d(0px, 0px, 0px);"><div class="acts-focus-item tap-action slide" data-tap="jump|21796,11" data-log="focus" style="background-image: url(&quot;http://img01.bqstatic.com//upload/activity/2016120911395357.jpg@90Q&quot;); width: 414px; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1); left: auto;"></div><div class="acts-focus-item tap-action slide" data-tap="jump|21661,11" data-log="focus" style="background-image: url(&quot;http://img01.bqstatic.com//upload/activity/2016111111374742.jpg@90Q&quot;); width: 414px; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);"></div><div class="acts-focus-item tap-action slide" data-tap="jump|21787,11" data-log="focus" style="background-image: url(&quot;http://img01.bqstatic.com//upload/activity/2016120116032614.jpg@90Q&quot;); width: 414px; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);"></div></div><div class="indicator"><div class="indicator-dot theme-bg"></div><div class="indicator-dot"></div><div class="indicator-dot"></div></div></div><ul class="block acts-icon theme-spline cf"><li class="acts-icon-item tap-action" data-tap="jump|21743,11" data-log="icon">
+<div class="acts-icon-item-img" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016102017310618.png)"></div>
+<p class="acts-icon-item-name">疯狂秒杀</p>
+</li><li class="acts-icon-item tap-action" data-tap="jump|21749,11" data-log="icon">
+<div class="acts-icon-item-img" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016102015101951.png)"></div>
+<p class="acts-icon-item-name">鲜货直供</p>
+</li><li class="acts-icon-item tap-action" data-tap="jump|20581,11" data-log="icon">
+<div class="acts-icon-item-img" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016062509512579.png)"></div>
+<p class="acts-icon-item-name">整箱购</p>
+</li><li class="acts-icon-item tap-action" data-tap="jump|21355,11" data-log="icon">
+<div class="acts-icon-item-img" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016100709054885.png)"></div>
+<p class="acts-icon-item-name">乳品</p>
+</li></ul><ul class="block acts-brand cf"><li class="acts-brand-item theme-spline tap-action" data-tap="jump|21355,11" data-log="brand" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016112916381685.jpg@90Q.jpg)"></li><li class="acts-brand-item theme-spline tap-action" data-tap="jump|21782,11" data-log="brand" style="background-image:url(http://img01.bqstatic.com//upload/activity/cms_116950_1479433541.jpg@90Q)"></li><li class="acts-brand-item theme-spline tap-action" data-tap="jump|21750,11" data-log="brand" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016111122385417.jpg@90Q.jpg)"></li></ul><div class="home-business block "><ul class="business-sub business-sub-chead"><li class="business-sub-item tap-action theme-spline " data-tap="jump|,0"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/201609232046093.png@90Q.png);"></div></li></ul><ul class="business-sub business-sub-cactivity"><li class="business-sub-item tap-action theme-spline " data-tap="jump|104749,12" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092417285271.jpg@90Q.jpg);"></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|104747,12" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092417282359.jpg@90Q.jpg);"></div></li></ul><ul class="business-sub business-sub-cicons"><li class="business-sub-item tap-action theme-spline " data-tap="jump|103532,12" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092415283782.png@90Q.png);"><div class="ui-ellipsis">优选水果</div></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|103536,12" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092415274759.png@90Q.png);"><div class="ui-ellipsis">牛奶面包</div></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|103549,12" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092415272487.png@90Q.png);"><div class="ui-ellipsis">饮料酒水</div></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|100001,12" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092411075920.png@90Q.png);"><div class="ui-ellipsis">更多</div></div></li></ul><ul class="business-sub business-sub-cscene"><li class="business-sub-item tap-action theme-spline " data-tap="jump|21733,11" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;subjectId&quot;:&quot;21733&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016101415292931.jpg@90Q.jpg);"></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|21142,11" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;subjectId&quot;:&quot;21142&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016112918160610.jpg@90Q.jpg);"></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|21742,11" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;subjectId&quot;:&quot;21742&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/201609241914489.jpg@90Q.jpg);"></div></li><li class="business-sub-item tap-action theme-spline " data-tap="jump|20581,11" data-log="{&quot;operationId&quot;:&quot;1464&quot;,&quot;subjectId&quot;:&quot;20581&quot;,&quot;actionType&quot;:&quot;operationCategorySmall&quot;}"><div class="business-sub-item-inner theme-spline" style="background-image:url(http://img01.bqstatic.com//upload/activity/2016092417350939.png@90Q.png);"></div></li></ul></div><ul class="acts-category cf"><li class="block acts-category-item">
+<div class="acts-category-item-header cf">
+<span class="acts-category-item-header-title" style="color:#F38631;border-color:#F38631">优选水果</span>
+<span class="acts-category-item-header-more theme-grayfont tap-action more" data-tap="category|103532" data-log="categoryBanner_clickMore">更多<span class="theme-spacer"></span></span>
+</div>
+<div class="acts-category-item-banner tap-action" data-tap="jump|21782,11" data-log="categoryBanner" data-src="http://img01.bqstatic.com//upload/activity/201611221806316.jpg@90Q.jpg" style="background-image: url(&quot;http://img01.bqstatic.com//upload/activity/201611221806316.jpg@90Q.jpg&quot;);"></div>
+<ul class="acts-category-item-goodsList cf"><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|116846" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|116846" data-src="http://img01.bqstatic.com/upload/goods/201/611/0818/20161108183015_698812.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/611/0818/20161108183015_698812.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/611/0818/20161108183015_698812.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">爱鲜蜂·赣南脐橙</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">750-1050g 3粒/袋</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>16.8</span>
+
+</div>
+<div class="product-operates product-operates-116846" data-pid="116846" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,116846" data-id="116846" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner"></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|116950" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|116950" data-src="http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">蜂觅·越南直采红心火龙果</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">350-450g/盒</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>10.9</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>12.9</span>
+</div>
+<div class="product-operates product-operates-116950" data-pid="116950" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,116950" data-id="116950" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner"></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|117824" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|117824" data-src="http://img01.bqstatic.com/upload/goods/201/612/0710/20161207101224_865151.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/612/0710/20161207101224_865151.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/612/0710/20161207101224_865151.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">蜂觅·橙三好·麻阳冰糖橙</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">700-750g/袋</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>7.9</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>9.9</span>
+</div>
+<div class="product-operates product-operates-117824" data-pid="117824" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,117824" data-id="117824" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner"></span></span></div>
+</div>
+<div>
+</div></div></li></ul>
+</li><li class="block acts-category-item">
+<div class="acts-category-item-header cf">
+<span class="acts-category-item-header-title" style="color:#20B1FA;border-color:#20B1FA">牛奶面包</span>
+<span class="acts-category-item-header-more theme-grayfont tap-action more" data-tap="category|103536" data-log="categoryBanner_clickMore">更多<span class="theme-spacer"></span></span>
+</div>
+<div class="acts-category-item-banner tap-action" data-tap="jump|21355,11" data-log="categoryBanner" data-src="http://img01.bqstatic.com//upload/activity/2016093011213251.jpg@90Q.jpg" style="background-image: url(&quot;http://img01.bqstatic.com//upload/activity/2016093011213251.jpg@90Q.jpg&quot;);"></div>
+<ul class="acts-category-item-goodsList cf"><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|114322" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|114322" data-src="http://img01.bqstatic.com/upload/goods/201/609/1215/20160912154925_586590.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/609/1215/20160912154925_586590.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/609/1215/20160912154925_586590.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">贝儿手撕包</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">60g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>3.6</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>4.5</span>
+</div>
+<div class="product-operates product-operates-114322" data-pid="114322" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,114322" data-id="114322" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|104731" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|104731" data-src="http://img01.bqstatic.com/upload/goods/201/604/0710/20160407104710_199419.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/604/0710/20160407104710_199419.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/604/0710/20160407104710_199419.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">活润草莓桑葚果粒酸牛奶</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">370g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>10.5</span>
+
+</div>
+<div class="product-operates product-operates-104731" data-pid="104731" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,104731" data-id="104731" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|109792" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|109792" data-src="http://img01.bqstatic.com/upload/goods/201/606/1416/20160614160914_073836.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/606/1416/20160614160914_073836.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/606/1416/20160614160914_073836.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">雪原白瓷瓶风味酸乳</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+<span class="pm-intaglio">买一赠一</span>
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">200g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>10.9</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>12</span>
+</div>
+<div class="product-operates product-operates-109792" data-pid="109792" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,109792" data-id="109792" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li></ul>
+</li><li class="block acts-category-item">
+<div class="acts-category-item-header cf">
+<span class="acts-category-item-header-title" style="color:#7B4D03;border-color:#7B4D03">卤味熟食</span>
+<span class="acts-category-item-header-more theme-grayfont tap-action more" data-tap="category|103581" data-log="categoryBanner_clickMore">更多<span class="theme-spacer"></span></span>
+</div>
+<div class="acts-category-item-banner tap-action" data-tap="jump|21742,11" data-log="categoryBanner" data-src="http://img01.bqstatic.com//upload/activity/2016092318512099.jpg@90Q.jpg" style="background-image: url(&quot;http://img01.bqstatic.com//upload/activity/2016092318512099.jpg@90Q.jpg&quot;);"></div>
+<ul class="acts-category-item-goodsList cf"><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|112352" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|112352" data-src="http://img01.bqstatic.com/upload/goods/201/607/2217/20160722171730_421643.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/607/2217/20160722171730_421643.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/607/2217/20160722171730_421643.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">飘香卤鸭肠微辣</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">108g/盒</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>18</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>30</span>
+</div>
+<div class="product-operates product-operates-112352" data-pid="112352" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,112352" data-id="112352" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|109196" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|109196" data-src="http://img01.bqstatic.com/upload/goods/201/605/2409/20160524095244_729759.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/605/2409/20160524095244_729759.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/605/2409/20160524095244_729759.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">飘香卤鱼豆腐(微辣)</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">138g/盒</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>10</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>18</span>
+</div>
+<div class="product-operates product-operates-109196" data-pid="109196" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,109196" data-id="109196" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|112988" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|112988" data-src="http://img01.bqstatic.com/upload/goods/201/608/0515/20160805151747_179671.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/608/0515/20160805151747_179671.jpg@200w_200h_90Q" style="background-image: url(&quot;http://img01.bqstatic.com/upload/goods/201/608/0515/20160805151747_179671.jpg@200w_200h_90Q&quot;);"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">哈肉联乌克兰风味烤肠</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">100g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>11</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>13</span>
+</div>
+<div class="product-operates product-operates-112988" data-pid="112988" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,112988" data-id="112988" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li></ul>
+</li><li class="block acts-category-item">
+<div class="acts-category-item-header cf">
+<span class="acts-category-item-header-title" style="color:#FF3319;border-color:#FF3319">饮料酒水</span>
+<span class="acts-category-item-header-more theme-grayfont tap-action more" data-tap="category|103549" data-log="categoryBanner_clickMore">更多<span class="theme-spacer"></span></span>
+</div>
+<div class="acts-category-item-banner tap-action scroller-lazyload" data-tap="jump|21733,11" data-log="categoryBanner" data-src="http://img01.bqstatic.com//upload/activity/201610121826404.jpg@90Q.jpg"></div>
+<ul class="acts-category-item-goodsList cf"><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|114826" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|114826" data-src="http://img01.bqstatic.com/upload/goods/201/609/2616/20160926164822_815777.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/609/2616/20160926164822_815777.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">「可口可乐」零度汽水</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">330ml</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>3</span>
+
+</div>
+<div class="product-operates product-operates-114826" data-pid="114826" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,114826" data-id="114826" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|10305" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|10305" data-src="http://img01.bqstatic.com/upload/goods/000/001/0305/0000010305.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/000/001/0305/0000010305.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">信远斋桂花酸梅汤饮料</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">300ml</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>5</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>7</span>
+</div>
+<div class="product-operates product-operates-10305" data-pid="10305" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,10305" data-id="10305" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|117245" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|117245" data-src="http://img01.bqstatic.com/upload/goods/201/611/2817/20161128175651_842625.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/611/2817/20161128175651_842625.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">中绿粗粮王美人红豆</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">250ml</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>3</span>
+
+</div>
+<div class="product-operates product-operates-117245" data-pid="117245" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,117245" data-id="117245" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li></ul>
+</li><li class="block acts-category-item">
+<div class="acts-category-item-header cf">
+<span class="acts-category-item-header-title" style="color:#E80013;border-color:#E80013">零食大趴</span>
+<span class="acts-category-item-header-more theme-grayfont tap-action more" data-tap="category|103541" data-log="categoryBanner_clickMore">更多<span class="theme-spacer"></span></span>
+</div>
+<div class="acts-category-item-banner tap-action scroller-lazyload" data-tap="jump|21142,11" data-log="categoryBanner" data-src="http://img01.bqstatic.com//upload/activity/2016120115182553.jpg@90Q.jpg"></div>
+<ul class="acts-category-item-goodsList cf"><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|112738" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|112738" data-src="http://img01.bqstatic.com/upload/goods/201/607/2917/20160729175544_825158.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/607/2917/20160729175544_825158.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">德芙蓝莓黑巧克力</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">100g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>23.8</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>25</span>
+</div>
+<div class="product-operates product-operates-112738" data-pid="112738" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,112738" data-id="112738" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|113594" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|113594" data-src="http://img01.bqstatic.com/upload/goods/201/608/2518/20160825184432_209333.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/608/2518/20160825184432_209333.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">好丽友薯愿薯片三连包</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">104g*3</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>21.9</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>23.9</span>
+</div>
+<div class="product-operates product-operates-113594" data-pid="113594" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,113594" data-id="113594" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|97321" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|97321" data-src="http://img01.bqstatic.com/upload/goods/201/601/1314/20160113144310_831201.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/201/601/1314/20160113144310_831201.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">康师傅妙芙欧式蛋糕奶油味</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">96g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>6.5</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>9.9</span>
+</div>
+<div class="product-operates product-operates-97321" data-pid="97321" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,97321" data-id="97321" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li></ul>
+</li><li class="block acts-category-item">
+<div class="acts-category-item-header cf">
+<span class="acts-category-item-header-title" style="color:#1EB2A3;border-color:#1EB2A3">方便速食</span>
+<span class="acts-category-item-header-more theme-grayfont tap-action more" data-tap="category|103557" data-log="categoryBanner_clickMore">更多<span class="theme-spacer"></span></span>
+</div>
+<div class="acts-category-item-banner tap-action scroller-lazyload" data-tap="jump|21759,11" data-log="categoryBanner" data-src="http://img01.bqstatic.com//upload/activity/201611291718265.jpg@90Q.jpg"></div>
+<ul class="acts-category-item-goodsList cf"><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|2513" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|2513" data-src="http://img01.bqstatic.com/upload/goods/000/000/2513/0000002513.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/000/000/2513/0000002513.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">统一小浣熊意式红烩有点甜</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">50g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>1</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>1.2</span>
+</div>
+<div class="product-operates product-operates-2513" data-pid="2513" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,2513" data-id="2513" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|94423" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|94423" data-src="http://img01.bqstatic.com/upload/goods/000/009/4423/0000094423_01580.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/000/009/4423/0000094423_01580.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">统一小浣熊烤翅要逆天味</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">50g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>1</span>
+<span class="product-price-market theme-grayfont"><span class="price-yuan">¥</span>1.2</span>
+</div>
+<div class="product-operates product-operates-94423" data-pid="94423" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,94423" data-id="94423" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li><li class="mod-product-item  mod-product-item-columns3  product-item-had-embossed theme-spline" data-tap="detail|93347" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="product-item-inner theme-spline">
+<div class="product-image tap-action" data-tap="detail|93347" data-src="http://img01.bqstatic.com/upload/goods/000/009/3347/0000093347_45070.jpg@200w_200h_90Q" data-log="{&quot;actionType&quot;:&quot;detail&quot;}">
+<div class="scroller-lazyload product-image-img" data-src="http://img01.bqstatic.com/upload/goods/000/009/3347/0000093347_45070.jpg@200w_200h_90Q"></div>
+</div>
+<div class="product-meta-wrap">
+<div class="product-name ui-ellipsis">川南麻辣萝卜干</div>
+<div class="product-promotion">
+<span class="pm-embossed">精选</span>
+&nbsp;
+</div>
+<div class="product-specifics theme-grayfont ui-ellipsis">62g</div>
+<div class="product-price-wrap">
+<span class="product-price-current"><span class="price-yuan">¥</span>1.5</span>
+
+</div>
+<div class="product-operates product-operates-93347" data-pid="93347" data-showzero="0"><span class="product-operates-item add tap-action" data-tap="shopping|add,93347" data-id="93347" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;,&quot;modularType&quot;:&quot;categoryBanner&quot;}"><span class="inner theme-spline "></span></span></div>
+</div>
+<div>
+</div></div></li></ul>
+</li></ul></div>
+<div class="main-hot scroller-firstin" data-offset="300">
+<fieldset class="theme-spline spline-top">
+<legend class="theme-grayfont">鲜蜂热卖</legend>
+</fieldset>
+<ul class="main-hot-list cf"></ul>
+<div class="main-hot-footer theme-grayfont tap-action" data-tap="switchNav|menu">点击查看全部商品</div>
+</div>
+<div class="navs-holder"></div>
+</div>
+<div class="home-error"></div>
+</div></div><div id="mod-pageview-2" class="mod-cart mod-pageview pageview-hadtitle pageview-isroot" style="z-index: 100; display: none;" data-stack="10"><header class="pub-header spline-bottom theme-spline">
+<span class="tap-action header-icon header-left header-icon-back" data-tap="back" data-log=""></span>
+<div class="header-content ui-ellipsis tap-action" data-tap="titleTap" data-log="">购物车</div>
+<span class="tap-action header-icon header-right header-icon-" data-tap="" data-log=""></span>
+<div class="header-percent theme-bg"></div>
+</header><div class="main main-top scroller" style="overflow-y: auto; overflow-x: hidden;">
+<div>
+<div class="receive block tap-action" data-tap="selectAddr" data-log="address" style="display: block;"><table class="addr-table" width="100%">
+<tbody><tr>
+<th width="28%">收<span class="ui-hidden">a</span>货<span class="ui-hidden">a</span>人
+</th><td>迪晓昌&nbsp;先生</td>
+<td width="17%" rowspan="3" class="more">修改</td>
+</tr>
+<tr>
+<th>电<span class="ui-hidden">中中</span>话
+</th><td>13611366910</td>
+</tr>
+<tr>
+<th>收货地址
+</th><td>北京市光耀公寓 011</td>
+</tr>
+</tbody></table></div>
+<div class="cart-groups-wraper"><div class="cart-group cart-group-0 block">
+<div class="theme-grayfont theme-bg-decorate group-name">闪送超市</div>
+<span class="group-addOnBtn theme-border-red theme-redfont tap-action" data-tap="add_on|0" data-group="0" data-log="flash_sentMore" style="display: block;">凑单专区</span>
+
+
+<p class="theme-grayfont group-proptext ui-ellipsis ">￥0起送，22:00前满￥30免运费，22:00后满￥69免运费</p>
+<p class="group-receive theme-spline spline-list more">收货时间&nbsp;&nbsp; <span class="ui-float-right group-receive-ext">&nbsp;可预定</span><select class="group-receive-select group-receive-select-0" data-groupid="0"><optgroup label="今天"><option value="一小时送达" data-dateid="0" data-time="一小时送达" data-dateidstr="今天" selected="">一小时送达</option><option value="20:00-21:00" data-dateid="0" data-time="20:00-21:00" data-dateidstr="今天">20:00-21:00</option><option value="21:00-22:00" data-dateid="0" data-time="21:00-22:00" data-dateidstr="今天">21:00-22:00</option></optgroup><optgroup label="明天"><option value="明天 10:00-11:00" data-dateid="1" data-time="10:00-11:00" data-dateidstr="明天">10:00-11:00</option><option value="明天 11:00-12:00" data-dateid="1" data-time="11:00-12:00" data-dateidstr="明天">11:00-12:00</option><option value="明天 12:00-13:00" data-dateid="1" data-time="12:00-13:00" data-dateidstr="明天">12:00-13:00</option><option value="明天 13:00-14:00" data-dateid="1" data-time="13:00-14:00" data-dateidstr="明天">13:00-14:00</option><option value="明天 14:00-15:00" data-dateid="1" data-time="14:00-15:00" data-dateidstr="明天">14:00-15:00</option><option value="明天 15:00-16:00" data-dateid="1" data-time="15:00-16:00" data-dateidstr="明天">15:00-16:00</option><option value="明天 16:00-17:00" data-dateid="1" data-time="16:00-17:00" data-dateidstr="明天">16:00-17:00</option><option value="明天 17:00-18:00" data-dateid="1" data-time="17:00-18:00" data-dateidstr="明天">17:00-18:00</option><option value="明天 18:00-19:00" data-dateid="1" data-time="18:00-19:00" data-dateidstr="明天">18:00-19:00</option><option value="明天 19:00-20:00" data-dateid="1" data-time="19:00-20:00" data-dateidstr="明天">19:00-20:00</option><option value="明天 20:00-21:00" data-dateid="1" data-time="20:00-21:00" data-dateidstr="明天">20:00-21:00</option><option value="明天 21:00-22:00" data-dateid="1" data-time="21:00-22:00" data-dateidstr="明天">21:00-22:00</option></optgroup><optgroup label="后天"><option value="后天 10:00-11:00" data-dateid="2" data-time="10:00-11:00" data-dateidstr="后天">10:00-11:00</option><option value="后天 11:00-12:00" data-dateid="2" data-time="11:00-12:00" data-dateidstr="后天">11:00-12:00</option><option value="后天 12:00-13:00" data-dateid="2" data-time="12:00-13:00" data-dateidstr="后天">12:00-13:00</option><option value="后天 13:00-14:00" data-dateid="2" data-time="13:00-14:00" data-dateidstr="后天">13:00-14:00</option><option value="后天 14:00-15:00" data-dateid="2" data-time="14:00-15:00" data-dateidstr="后天">14:00-15:00</option><option value="后天 15:00-16:00" data-dateid="2" data-time="15:00-16:00" data-dateidstr="后天">15:00-16:00</option><option value="后天 16:00-17:00" data-dateid="2" data-time="16:00-17:00" data-dateidstr="后天">16:00-17:00</option><option value="后天 17:00-18:00" data-dateid="2" data-time="17:00-18:00" data-dateidstr="后天">17:00-18:00</option><option value="后天 18:00-19:00" data-dateid="2" data-time="18:00-19:00" data-dateidstr="后天">18:00-19:00</option><option value="后天 19:00-20:00" data-dateid="2" data-time="19:00-20:00" data-dateidstr="后天">19:00-20:00</option><option value="后天 20:00-21:00" data-dateid="2" data-time="20:00-21:00" data-dateidstr="后天">20:00-21:00</option><option value="后天 21:00-22:00" data-dateid="2" data-time="21:00-22:00" data-dateidstr="后天">21:00-22:00</option></optgroup></select><span class="theme-redfont group-receive-select-text group-receive-select-text-0">一小时送达</span></p>
+<div class="group-comment theme-spline spline-top spline-bottom">
+收货备注&nbsp;&nbsp;
+<div class="comment-wrapper">
+<input class="group-comment-input group-comment-input-0" type="text" maxlength="100" value="" placeholder="可输入100字以内特殊要求内容">
+</div>
+</div>
+<table class="group-list" width="100%" style="table-layout:fixed;"><tbody><tr style="height:0;" class="layout-fix"><td style="width:5rem"></td><td style="width:5rem"></td><td></td></tr>
+<tr class="group-item group-item-disabled-0 theme-spline spline-list tap-action" data-tap="viewDetail|116846">
+<td class="group-item-checkbox selected tap-action" style="width:5rem" data-tap="toggleProduct|116846"></td>
+<td style="width:5rem">
+<div class="group-item-img-wrap">
+<div class="group-item-img" style="background-image: url(http://img01.bqstatic.com/upload/goods/201/611/0818/20161108183015_698812.jpg@120w_120h_90Q)"></div>
+<div class="maskText"></div>
+</div>
+</td>
+<td>
+<div class="group-item-name ui-ellipsis">爱鲜蜂·赣南脐橙</div>
+<div class="group-item-price" width="50px">￥16.8</div>
+<div class="mod-product-ope group-item-ope" width="30%">
+<div class="product-operates product-operates-116846" data-pid="116846" data-showzero="1"><span class="product-operates-item del tap-action" data-tap="shopping|del,116846" data-id="116846" data-log="{&quot;actionType&quot;:&quot;cartDel&quot;}"><span class="inner "></span></span>
+<span class="product-operates-item amount">1</span><span class="product-operates-item add tap-action" data-tap="shopping|add,116846" data-id="116846" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;}"><span class="inner  "></span></span></div>
+<div class="product-shopope-delall product-delall tap-action" data-tap="shopping|delall,116846"></div>
+</div>
+</td>
+</tr>
+<tr class="group-item group-item-disabled-0 theme-spline spline-list tap-action" data-tap="viewDetail|116950">
+<td class="group-item-checkbox selected tap-action" style="width:5rem" data-tap="toggleProduct|116950"></td>
+<td style="width:5rem">
+<div class="group-item-img-wrap">
+<div class="group-item-img" style="background-image: url(http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@200w_200h_90Q)"></div>
+<div class="maskText"></div>
+</div>
+</td>
+<td>
+<div class="group-item-name ui-ellipsis">蜂觅·越南直采红心火龙果</div>
+<div class="group-item-price" width="50px">￥10.9</div>
+<div class="mod-product-ope group-item-ope" width="30%">
+<div class="product-operates product-operates-116950" data-pid="116950" data-showzero="1"><span class="product-operates-item del tap-action" data-tap="shopping|del,116950" data-id="116950" data-log="{&quot;actionType&quot;:&quot;cartDel&quot;}"><span class="inner "></span></span>
+<span class="product-operates-item amount">1</span><span class="product-operates-item add tap-action" data-tap="shopping|add,116950" data-id="116950" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;}"><span class="inner  "></span></span></div>
+<div class="product-shopope-delall product-delall tap-action" data-tap="shopping|delall,116950"></div>
+</div>
+</td>
+</tr>
+<tr class="group-item group-item-disabled-0 theme-spline spline-list tap-action" data-tap="viewDetail|117824">
+<td class="group-item-checkbox selected tap-action" style="width:5rem" data-tap="toggleProduct|117824"></td>
+<td style="width:5rem">
+<div class="group-item-img-wrap">
+<div class="group-item-img" style="background-image: url(http://img01.bqstatic.com/upload/goods/201/612/0710/20161207101224_865151.jpg@200w_200h_90Q)"></div>
+<div class="maskText"></div>
+</div>
+</td>
+<td>
+<div class="group-item-name ui-ellipsis">蜂觅·橙三好·麻阳冰糖橙</div>
+<div class="group-item-price" width="50px">￥7.9</div>
+<div class="mod-product-ope group-item-ope" width="30%">
+<div class="product-operates product-operates-117824" data-pid="117824" data-showzero="1"><span class="product-operates-item del tap-action" data-tap="shopping|del,117824" data-id="117824" data-log="{&quot;actionType&quot;:&quot;cartDel&quot;}"><span class="inner "></span></span>
+<span class="product-operates-item amount">1</span><span class="product-operates-item add tap-action" data-tap="shopping|add,117824" data-id="117824" data-log="{&quot;actionType&quot;:&quot;cartAdd&quot;}"><span class="inner  "></span></span></div>
+<div class="product-shopope-delall product-delall tap-action" data-tap="shopping|delall,117824"></div>
+</div>
+</td>
+</tr></tbody></table>
+<div class="group-footer theme-spline spline-top">
+<div class="group-btn theme-bg ui-float-right tap-action" data-tap="cartOk|0" disabled="false">选好了</div>
+<span class="selectAll-true tap-action" data-tap="selectAll|0">全选</span>
+共：<span class="theme-redfont">￥35.6</span>
+</div>
+</div>
+<div class="navs-holder"></div></div>
+</div>
+</div></div></div>  <script>window.SYS_CONF = {cacheMode:0,environ:'online',now:parseInt("1481284134000"),jsNow:(new Date()).getTime(),errno:0,errmsg:"ok",logid:"584a9a26248bd9908",geologid:"h5mb20161209194835L584a9a11254d79411X0575341079274",beeToken:"b96b439ca4b6ee91007a547712819c8b",tn:"",tg:"",appName:"bee",isMobile:true,isSimulateMobile: false,lastAddrId:"",userInfo:        {   "beeId":    "584a1adb1e9242326"    , "authorized":    "1"    , "phone":    "136****6910"    , "rawPhone":    "13611366910"    , "logUid":    "584a1adb1e9242326"    }    ,domain:        {   "clicklog":    "http:\/\/log.beequick.cn\/"    , "current":    "http:\/\/m.beequick.cn"    , "static":    "http:\/\/www.beequick.cn"    }    ,platform:        {   "mobile":     true     , "apple":     true     , "ios70":    "0"    , "m":     true     , "pc":     false     , "android":     false     , "ipad":     false     , "iphone":     true     , "weibo":     false     , "weixin":     false     , "baiduapp":     false     , "baidumap":     false     , "bestpay":     false     , "kuaiqian":     false     , "nuomi":     false     , "daojia58":     false     , "daojia58App":     true     , "dayima":     false     , "mac":     false     , "windows":     false     , "app":     false     }    ,browser:        {   "oldIE":     false     , "lteIE7":     false     , "lteIE8":     false     , "ie6":     false     , "ie7":     false     , "ie8":     false     , "ie9":     false     }    ,appVersion:"",promotion :         {   "shoppingCart":        {   "minPrice":    "30"    }      , "minPrice":      []     , "countLimit":        {   "109023":    "1"    , "98919":    "1"    , "94594":    "1"    , "97229":    "1"    , "97597":    "1"    , "104096":    "1"    , "109022":    "1"    , "104134":    "1"    , "104133":    "1"    , "104132":    "1"    , "107909":    "1"    , "107442":    "1"    , "107453":    "1"    , "107454":    "1"    , "107455":    "1"    , "107458":    "1"    , "108011":    "1"    , "108012":    "1"    , "109356":    "3"    , "109354":    "1"    , "107330":    "1"    }      , "hidden":      []     , "exclusion":        {   "brand":        [       "43,155"    ]      }      , "exclusive":      []     , "timestart":        {   "minPrice":        {   "time":    "201409220000"    , "timestamp":    "1411315200"    , "isStart":     true     }      , "wxFanxian":        {   "time":    "201502040000"    , "timestamp":    "1422979200"    , "isStart":     true     }      , "queen":        {   "time":    "201503070900"    , "timestamp":    "1425690000"    , "isStart":     true     }      , "queenBeforeEnd":        {   "time":    "201503180000"    , "timestamp":    "1426608000"    , "isStart":     true     }      }      , "welcome":        {   "text":    ""    , "from":    "201409220000"    }      , "welcomeLogo":        {   "active":     false     , "canShow":     false     }      }    ,shareSerie:'50b759er7XCtdj7r\/9ZS9rBb\/eRg',protectedParams:'',sns:{userId:'',signedParam:    ""  ,weixinJsApiConf:    ""   },serverDectGps:false,frozenVersion:'',partner: ''}</script>   <script src="./爱鲜蜂_files/phone_base.all-66005697.js.下载"></script>   <script>  try{window.SYS_CONF.addrList =         [           {   "id":    "123657"    , "uid":    "191688"    , "user_id":    ""    , "accept_name":    "迪晓昌"    , "telphone":    "13611366910"    , "province_id":    "1"    , "province_name":    "北京"    , "city_id":    "2"    , "city_name":    "北京市"    , "district_id":    "0"    , "district_name":    ""    , "address":    "光耀公寓 011"    , "lng":    "116.44674137393062"    , "lat":    "39.930606008783045"    , "created_time":    "2015-01-14 14:50:33"    , "ismove":    "0"    , "isclick":    "0"    , "lng_map":    "116.44674137393062"    , "lat_map":    "39.930606008783045"    , "isnew":    "0"    , "addr_for_dealer":    "北京市朝阳门外大街17号光耀公寓四层"    , "gender":    "1"    , "open_app_id":    "0"    , "version":    "0"    }      ]    ;}catch(e){}  </script><script src="./爱鲜蜂_files/phone_m_min.all-9afacd97.js.下载"></script><script id="m-phone-lazy-js" data-src="/static/bee/js/phone_m_lazy.all-c44e83bc.js" src="./爱鲜蜂_files/phone_m_lazy.all-c44e83bc.js.下载"></script>        <div class="bugfix-ui-node"></div><div class="gmu-media-detect" id="gmu-media-detect0"></div><div id="mod-loading-1" class="mod-loading ui-hide">
+<div class="loading-content">
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<p><span class="loading-text">加载中</span><span class="loading-status">.<span class="ui-hidden">..</span></span></p>
+</div>
+</div><div id="mod-dialog-wrap" class="mod-dialog dialog-closed" style="display: none;">
+<div class="dialog-mask"></div>
+<div class="dialog-vertical" style="margin-top: -80px;"><div class="dialog-main ">
+<div class="dialog-title" style="display:none">false</div>
+<table width="100%"><tbody><tr><td class="dialog-content" style="height:100px;">爱鲜蜂·赣南脐橙 库存不足了<br>先买这么多，过段时间再来看看吧~</td></tr></tbody></table>
+<div class="dialog-buttons" style="display:block"><div class="dialog-action dialog-btn dialog-btn-last dialog-btn-ok" style="width:99%" data-action="button" data-action-arg="ok">确定</div></div>
+</div></div>
+</div></body></html>
